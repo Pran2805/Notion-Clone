@@ -1,0 +1,36 @@
+<svg width="260" height="140" viewBox="0 0 260 140" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <!-- Rainbow Gradient -->
+    <linearGradient id="rainbowGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff004c"/>
+      <stop offset="16%" stop-color="#ff7a00"/>
+      <stop offset="32%" stop-color="#ffd500"/>
+      <stop offset="48%" stop-color="#2ecc71"/>
+      <stop offset="64%" stop-color="#00cfff"/>
+      <stop offset="80%" stop-color="#6a5cff"/>
+      <stop offset="100%" stop-color="#b400ff"/>
+    </linearGradient>
+
+    <!-- Lowered Curve -->
+    <path
+      id="text-curve"
+      d="M 40 110 A 90 90 0 0 1 220 110"
+      fill="none"
+    />
+  </defs>
+
+  <!-- Curved Text -->
+  <text
+    font-family="Inter, Arial, sans-serif"
+    font-size="28"
+    font-weight="700"
+    fill="url(#rainbowGradient)"
+    letter-spacing="2"
+    dominant-baseline="middle">
+    <textPath href="#text-curve" startOffset="50%" text-anchor="middle">
+      FlowDesk
+    </textPath>
+  </text>
+
+</svg>
